@@ -1,0 +1,12 @@
+name: testTut
+channels:
+  - conda-forge
+dependencies:
+  - python<=3.9
+  - numpy>=1.15.4
+  - netCDF4
+  - pyyaml
+  - xarray
+  - matplotlib
+  - pytest
+  - pytest-benchmark
